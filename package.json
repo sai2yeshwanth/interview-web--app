@@ -1,0 +1,37 @@
+{
+  "name": "interview-web--app",
+  "version": "1.0.0",
+  "description": "Its is sample mock interview questions model there are three type of users (admin, interviewer and candidate) interviewer and admin can create a interview and candidate can practice the interview and this application is develop in react node typescript",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sai2yeshwanth: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@github.com/sai2yeshwanth/interview-web--app.git"
+  },
+  "keywords": [],
+  "author": "sai yeshwanth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sai2yeshwanth/interview-web--app/issues"
+  },
+  "homepage": "https://github.com/sai2yeshwanth/interview-web--app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "pg": "^8.10.0",
+    "sequelize": "^6.29.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.6",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
