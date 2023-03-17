@@ -21,7 +21,7 @@ export async function createAdminUser(){
         user_name : username,
         password : password,
         primary_profile: primaryProfile,
-        status : status
+
     }
     //creating admin record query
     await User.create(adminCredential)
