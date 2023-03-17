@@ -7,8 +7,7 @@ interface UserAttributes {
     id: number,
     primary_profile: number,
     user_name: string,
-    password: string,
-    status:number
+    password: string
 
     created_at?: Date,
     updated_at?: Date,
@@ -29,7 +28,7 @@ class User
     public primary_profile!: number;
     public user_name!: string;
     public password!: string;
-    public status!: number;
+
 
 
     public readonly created_at!: Date;
@@ -58,10 +57,6 @@ User.init(
         password: {
             type: DataTypes.STRING,
             allowNull: false
-        },
-        status:{
-            type: DataTypes.INTEGER,
-            allowNull:true
         }
     },
 
